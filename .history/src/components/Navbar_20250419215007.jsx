@@ -1,0 +1,15 @@
+import Link from "next/link";
+const Navbar = () => {
+    return (
+                <div className=" z-10 flex flex-row bg-white dark:bg-gray-800 sticky top-0 left-0 right-0 h-20 items-center justify-between p-5">
+                    <Link href='/'><img src={'/logo.svg'} className="h-16 bg-transparent ml-[6vw]"/></Link>
+                    <div>
+                        <Link href='/about' className="text-xl font-medium mx-3">About Us</Link>
+                        <Link href='/service/chat' className="text-xl font-medium mx-3">Chatbot</Link>
+                        <Link href='/service/cure' className="text-xl font-medium mx-3">Ch</Link>
+                        
+                    </div>
+                </div>
+            );
+        }
+export default Navbar;
