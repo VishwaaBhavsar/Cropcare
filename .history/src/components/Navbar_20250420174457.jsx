@@ -23,7 +23,7 @@ const Navbar = () => {
     const location = usePathname();
     const isHome = location!='/services';
     return (
-        <div className=" z-50 flex flex-row bg-white dark:bg-gray-800 sticky top-0 left-0 right-0 h-20 items-center justify-between p-5">
+        <div className=" z- flex flex-row bg-white dark:bg-gray-800 sticky top-0 left-0 right-0 h-20 items-center justify-between p-5">
             <Link href='/'><img src={'/logo.svg'} className="h-16 bg-transparent ml-[6vw]" /></Link>
             <div>
 

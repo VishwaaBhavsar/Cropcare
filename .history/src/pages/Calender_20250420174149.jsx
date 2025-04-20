@@ -432,7 +432,7 @@ const IndiaVegetableGrowingChart = () => {
   const currentMonth = new Date().toLocaleString('en-US', { month: 'short' });
 
   return (
-    <div className="max-w-8xl mx-auto ">
+    <div className="max-w-8 mx-auto">
       <div className="bg-gradient-to-br from-green-50 to-blue-50 p-6 rounded-xl shadow-lg border border-green-200">
         {/* Header section with title and current season */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
@@ -515,7 +515,7 @@ const IndiaVegetableGrowingChart = () => {
         )}
         
         {/* Month navigation scroller */}
-        {/* <div className="mb-4 overflow-x-auto">
+        <div className="mb-4 overflow-x-auto">
           <div className="flex gap-2 min-w-max py-2">
             {months.map((month) => (
               <div 
@@ -531,7 +531,7 @@ const IndiaVegetableGrowingChart = () => {
               </div>
             ))}
           </div>
-        </div> */}
+        </div>
         
         {/* Vegetable growing table */}
         <div className="overflow-x-auto rounded-xl shadow-md mb-6">
@@ -592,14 +592,14 @@ const IndiaVegetableGrowingChart = () => {
                         <div className="flex flex-col items-center gap-2">
                           {isPlanting && (
                             <div className={`rounded-full p-2 ${
-                              isCurrentMonth ? 'bg shadow-lg' : 'bg-'
+                              isCurrentMonth ? 'bg-green-600 shadow-lg' : 'bg-green-500'
                             }`}>
                               <span className="text-white text-sm">🌱</span>
                             </div>
                           )}
                           {isHarvesting && (
                             <div className={`rounded-full p-2 ${
-                              isCurrentMonth ? 'bg shadow-lg' : ''
+                              isCurrentMonth ? 'bg-amber-600 shadow-lg' : 'bg-amber-500'
                             }`}>
                               <span className="text-white text-sm">🧺</span>
                             </div>

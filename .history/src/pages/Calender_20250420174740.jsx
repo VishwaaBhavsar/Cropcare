@@ -515,7 +515,7 @@ const IndiaVegetableGrowingChart = () => {
         )}
         
         {/* Month navigation scroller */}
-        {/* <div className="mb-4 overflow-x-auto">
+        <div className="mb-4 overflow-x-auto">
           <div className="flex gap-2 min-w-max py-2">
             {months.map((month) => (
               <div 
@@ -531,7 +531,7 @@ const IndiaVegetableGrowingChart = () => {
               </div>
             ))}
           </div>
-        </div> */}
+        </div>
         
         {/* Vegetable growing table */}
         <div className="overflow-x-auto rounded-xl shadow-md mb-6">
@@ -592,7 +592,7 @@ const IndiaVegetableGrowingChart = () => {
                         <div className="flex flex-col items-center gap-2">
                           {isPlanting && (
                             <div className={`rounded-full p-2 ${
-                              isCurrentMonth ? 'bg shadow-lg' : 'bg-'
+                              isCurrentMonth ? 'bg shadow-lg' : 'bg--500'
                             }`}>
                               <span className="text-white text-sm">🌱</span>
                             </div>
