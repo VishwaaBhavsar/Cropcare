@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { ArrowRight, MessageSquare, Leaf, Cloud, Calendar, ShoppingCart } from "lucide-react";
 
-export default function Services() {
+export default function ServicesOverview() {
   const services = [
     {
       title: "AI Chatbot",

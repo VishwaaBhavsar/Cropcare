@@ -33,7 +33,6 @@ const Navbar = () => {
                 <Link href='/services/chat' className="text-[#117955] hover:text-[#20B297] text-xl font-medium mx-3">Chatbot</Link>
                 <Link href='/services/cure' className="text-[#117955] hover:text-[#20B297] text-xl font-medium mx-3">Plant-Cure</Link>
                 <Link href='/services/weather' className="text-[#117955] hover:text-[#20B297] text-xl font-medium mx-3">Weather</Link>
-                <Link href='/services/calendar' className="text-[#117955] hover:text-[#20B297] text-xl font-medium mx-3">Crop-Calender</Link>
             </>
             }
             </div>
